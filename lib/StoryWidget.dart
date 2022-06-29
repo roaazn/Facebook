@@ -22,13 +22,7 @@ class StoryWidget extends StatelessWidget {
           padding: EdgeInsets.all(10),
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(15),
-              gradient: LinearGradient(
-                  begin: Alignment.bottomRight,
-                  colors: [
-                    Colors.black.withOpacity(.9),
-                    Colors.black.withOpacity(.1),
-                  ]
-              )
+
           ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
